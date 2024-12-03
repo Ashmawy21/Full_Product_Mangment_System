@@ -1,6 +1,4 @@
-Here’s a README file template for your CRUD application project:
 
-```markdown
 # CRUD Application
 
 A simple web-based CRUD (Create, Read, Update, Delete) application for product management. This project demonstrates basic web development concepts using HTML, CSS, and JavaScript.
@@ -24,7 +22,7 @@ A simple web-based CRUD (Create, Read, Update, Delete) application for product m
 |-- FontAwasome/        # Folder for FontAwesome assets
     |-- all.min.css
     |-- all.min.js
-```
+
 
 ## How to Run
 
@@ -78,5 +76,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 - [FontAwesome](https://fontawesome.com) for icons
 ```
-
-Feel free to replace the placeholder text (e.g., `your-username`) with actual values specific to your project.

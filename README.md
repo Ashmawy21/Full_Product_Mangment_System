@@ -23,13 +23,13 @@ A simple web-based CRUD (Create, Read, Update, Delete) application for product m
     |-- all.min.css
     |-- all.min.js
 
-
+```
 ## How to Run
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/crud-app.git
-   ```
+   git clone [https://github.com/Ashmawy21/Full_Product_Mangment_System.git]                                                                                            
+   ```                                                                                
 2. Navigate to the project folder:
    ```bash
    cd crud-app

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./FontAwasome/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>cruds</title>
+</head>
+
+<body>
+    <div class="cruds">
+        <div class="head">
+            <h2>CRUD</h2>
+            <p>Full Product Mangment System</p>
+        </div>
+        <div class="inputs">
+            <input placeholder="TITLE" type="text" id="title">
+            <div class="price">
+                <input onkeyup="getTotal()" type="number" name="" id="price" placeholder="price">
+                <input onkeyup="getTotal()" type="number" name="" id="taxes" placeholder="taxes">
+                <input onkeyup="getTotal()" type="number" name="" id="ads" placeholder="ads">
+                <input onkeyup="getTotal()" type="number" name="" id="discount" placeholder="discount">
+                <small id="total"></small>
+            </div>
+            <input placeholder="count" type="number" id="count">
+            <input placeholder="category" type="text" id="category">
+            <button id="submit">Create</button>
+        </div>
+
+        <div class="outputs">
+            <div class="searchBlock">
+                <input onkeyup="searchData(this.value)" type="text" id="search" placeholder="search">
+                <div class="btnsearch">
+                    <button onclick=" getSearchMood(this.id)" id="searchTitle">Search By Title</button>
+                    <button onclick=" getSearchMood(this.id)" id="searchCategory">Search By Category</button>
+                </div>
+            </div>
+            <div id="deleteAll">
+
+            </div>
+            <table>
+                <tr>
+                    <th>id</th>
+                    <th>title</th>
+                    <th>price</th>
+                    <th>taxes</th>
+                    <th>ads</th>
+                    <th>discount</th>
+                    <th>total</th>
+                    <th>Category</th>
+                    <th>update</th>
+                    <th>delete</th>
+                </tr>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="./FontAwasome/all.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
